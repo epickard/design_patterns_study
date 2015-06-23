@@ -7,6 +7,7 @@ public class MiniDuckSimulator {
 		simulateRubberDuckie();
 		simulateDecoyDuck();
 		simulateBlueBilledDuck();
+		simulateModelDuck();
 		
 	}
 	
@@ -48,6 +49,17 @@ public class MiniDuckSimulator {
 		blueBilledDuck.performQuack();
 		blueBilledDuck.performFly();
 		blueBilledDuck.performEat();
+	}
+	
+	public static void simulateModelDuck() {
+		Duck model = new ModelDuck();
+		
+		System.out.println("\n" + "I am a model duck.");
+		
+		model.performFly();
+		//use the Duck class's setter method to change the behavior at runtime
+		model.setFlyBehavior(new FlyRocketPowered());
+		model.performFly();
 	}
 
 }

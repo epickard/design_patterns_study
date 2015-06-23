@@ -17,7 +17,18 @@ public class Duck {
 	}
 	
 	public void performEat() {
+		//Design pattern: Identify parts of the application that will change and separate them from what will remain the same
 		eatBehavior.eat();
+	}
+	
+	public void setFlyBehavior (FlyBehavior fb) {
+		//Setter method allows behavior to be changed at runtime
+		flyBehavior = fb;
+	}
+	
+	public void setQuackBehavior(QuackBehavior qb) {
+		//Setter method allows behavior to be changed at runtime
+		quackBehavior = qb;
 	}
 	
 	public void swim() {
