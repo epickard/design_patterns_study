@@ -1,0 +1,9 @@
+package design_patterns_study;
+
+public class Squeak implements QuackBehavior {
+	
+	public void quack() {
+		System.out.println("Squeak, squeak!");
+	}
+
+}
