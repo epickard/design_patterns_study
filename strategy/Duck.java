@@ -1,4 +1,4 @@
-package design_patterns_study;
+package design_patterns_study.strategy;
 
 public class Duck {
 	//Declare instance variables
