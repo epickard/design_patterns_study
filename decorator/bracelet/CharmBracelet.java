@@ -1,5 +1,6 @@
 package design_patterns_study.decorator.bracelet;
 
+//Concrete component class
 public class CharmBracelet extends Bracelet {
 	
 	//Constructor that sets the value of the superclass's braceletName variable to an object-specific value

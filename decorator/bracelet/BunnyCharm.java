@@ -1,5 +1,6 @@
 package design_patterns_study.decorator.bracelet;
 
+//Concrete decorator class
 public class BunnyCharm extends CharmsDecorator {
 	//Instance Variable(s)
 	Bracelet bracelet;
