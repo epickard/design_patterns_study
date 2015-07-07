@@ -8,6 +8,8 @@ public class BunnyCharm extends CharmsDecorator {
 	//Constructor takes param of type of superclass and sets BunnyCharm's Bracelet type variable to component to be decorated 
 	public BunnyCharm(Bracelet bracelet) {
 		this.bracelet = bracelet;
+		System.out.println("bunny: " + this.bracelet.toString());
+		System.out.println("bunny: " + this.braceletName);
 	}
 	
 	@Override
