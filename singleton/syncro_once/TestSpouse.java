@@ -1,4 +1,4 @@
-package design_patterns_study.singleton.sycro_once;
+package design_patterns_study.singleton.syncro_once;
 
 public class TestSpouse {
 
