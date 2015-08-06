@@ -6,8 +6,7 @@ public class BasketballStore extends BallStore {
 	public Ball createBall(String type) {
 		if (type.equals("basketball")){
 			return new Basketball();
-		}
-		return null;
+		} else return null;
 	}
 
 }
