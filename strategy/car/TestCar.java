@@ -9,7 +9,7 @@ public class TestCar {
 	
 	public static void simulateMiata(){
 		Car miata = new MiataCar();
-		System.out.println("This is a " + miata.name);
+		System.out.println("This is a(n) " + miata.name);
 		
 		miata.performStart();
 		miata.performHonk();
@@ -20,7 +20,7 @@ public class TestCar {
 
 	public static void simulateModelT(){
 		Car modelT = new ModelTCar();
-		System.out.println("This is a " + modelT.name);
+		System.out.println("This is a(n) " + modelT.name);
 		
 		modelT.performStart();
 		modelT.performHonk();
